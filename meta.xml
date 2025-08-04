@@ -1,0 +1,7 @@
+<meta>
+
+	<script src="afs_main_client.lua" type="client" />
+
+	<file src="alpha-fix.fx"/>
+
+</meta>
