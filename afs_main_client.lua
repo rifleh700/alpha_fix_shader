@@ -234,6 +234,8 @@ local TEXTURES = {
 	"tancolum1",
 	"des_woodrails",
 	"sjmornfnce",
+	"dogcart06",
+
 	--"scaffolding_vc",
 
 	-- flat
