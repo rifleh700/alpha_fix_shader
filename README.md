@@ -13,3 +13,7 @@ Shader applied to `world` and `object` types only by default. It's possible to u
 
 Shader povided by [XaskeL](https://github.com/Xaskel). Thx him!
 
+![screenshot2](https://i.imgur.com/LZEKAxR.jpeg)
+![screenshot3](https://i.imgur.com/qVlhvIg.jpeg)
+![screenshot1](https://i.imgur.com/PNMD9nL.png)
+![screenshot4](https://i.imgur.com/ZDmIBYS.png)
