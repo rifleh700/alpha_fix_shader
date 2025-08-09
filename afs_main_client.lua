@@ -33,6 +33,7 @@ local TEXTURES_PLANT1 = {
 }
 
 -- gta3.img (transparent only)
+-- water textures commented
 local TEXTURES_GTA3IMG = {
 
 	"711doors1",
@@ -496,7 +497,7 @@ local TEXTURES_GTA3IMG = {
 	"mpman_tigr_rug",
 	"mtbikegear128",
 	"mtbikewheel64",
-	"muddywater",
+	--"muddywater",
 	"mulhfenc02_la",
 	"mural07_la",
 	"musk5",
@@ -508,7 +509,7 @@ local TEXTURES_GTA3IMG = {
 	"neonwin1",
 	"nevada92decal128",
 	"newall8-1blue",
-	"newaterfal1_256",
+	--"newaterfal1_256",
 	"newscafold_256",
 	"newscafoldlod",
 	"newsvan92decal128",
@@ -804,8 +805,8 @@ local TEXTURES_GTA3IMG = {
 	"was_swr_trolleycage",
 	"washapartwall1_256",
 	"watchcro",
-	"waterclear256",
-	"waterdirty256",
+	--"waterclear256",
+	--"waterdirty256",
 	"wattsstax1_lae",
 	"wattsstax4_lae",
 	"wclist1",

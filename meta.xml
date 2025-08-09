@@ -1,5 +1,7 @@
 <meta>
 
+	<info name="alpha_fix_shader" version="1.1.0" author="matran/rifleh" type="script" />
+
 	<script src="afs_main_client.lua" type="client" />
 
 	<file src="alpha-fix.fx"/>
