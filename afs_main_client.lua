@@ -18,20 +18,6 @@ local TEXTURES_VEHICLE = {
 	"vehiclepoldecals128"
 }
 
--- plant1.txd
-local TEXTURES_PLANT1 = {
-
-	"gras07Si",
-	"txgrass0_0",
-	"txgrass0_1",
-	"txgrass0_2",
-	"txgrass0_3",
-	"txgrass1_0",
-	"txgrass1_1",
-	"txgrass1_2",
-	"txgrass1_3",
-}
-
 -- gta3.img (transparent only)
 -- water textures commented
 local TEXTURES_GTA3IMG = {
@@ -897,9 +883,6 @@ for i, texture in ipairs(TEXTURES_ADDITIONAL) do
 	engineApplyShaderToWorldTexture(SHADER, texture)
 end
 for i, texture in ipairs(TEXTURES_GTA3IMG) do
-	engineApplyShaderToWorldTexture(SHADER, texture)
-end
-for i, texture in ipairs(TEXTURES_PLANT1) do
 	engineApplyShaderToWorldTexture(SHADER, texture)
 end
 for i, texture in ipairs(TEXTURES_VEHICLE) do
