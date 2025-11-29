@@ -1,4 +1,6 @@
 
+local WATER_DRAW_FIRST = true
+
 -- 'vehicle' type disabled by default (add it if u want)
 local SHADER = dxCreateShader("alpha-fix.fx", 0, 0, false, "world,object")
 
@@ -887,4 +889,11 @@ for i, texture in ipairs(TEXTURES_GTA3IMG) do
 end
 for i, texture in ipairs(TEXTURES_VEHICLE) do
 	engineApplyShaderToWorldTexture(SHADER, texture)
+end
+
+if WATER_DRAW_FIRST then
+
+	local original = isWaterDrawnLast()
+	setWaterDrawnLast(false)
+	addEventHandler("onClientResourceStop", resourceRoot, function() setWaterDrawnLast(original) end)
 end

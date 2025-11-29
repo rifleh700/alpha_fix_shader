@@ -7,6 +7,8 @@ It fixes:
 
 Shader applied to `world` and `object` types only by default. It's possible to use `vehicle` type also.
 
+Shader calls `setWaterDrawnLast(false)`. If you don't need it - set `WATER_DRAW_FIRST` param to `false` in `afs_main_client.lua`
+
 > [!NOTE]  
 > Shader does not fix alpha bug perfectly, but it's better than nothing
 
